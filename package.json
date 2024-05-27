@@ -1,0 +1,21 @@
+{
+  "name": "socket-to-codespace",
+  "version": "1.0.0",
+  "description": "Small tool to run a socket on localhost to a Codespace reverse proxy in order to communicate with a process running in a Codespace terminal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"no tests\"",
+    "start": "node server.js.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carmelc/socket-to-codespace.git"
+  },
+  "author": "Carmel Cohen",
+  "license": "MIT",
+  "homepage": "https://github.com/carmelc/socket-to-codespace#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "http-proxy": "^1.18.1"
+  }
+}
